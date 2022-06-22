@@ -1,13 +1,167 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #23252c;
+  padding: 20px;
+  color: #F5F5F5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  background-color: #1a1b21;
+  height: 780px;
+  width: 330px;
+  border-radius: 10px;
+  /* border: 1px solid blue; */
+
+  margin-inline: auto;
+}
+
+.container {
+  width: 317px;
+  padding-inline: 20px;
+  /* border: 1px solid red; */
+  margin-inline: auto;
+}
+
+.info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-img {
+  height: 310px;
+  background: url('images/Ayotunde.png');
+  background-position: 0 0 0 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.875rem;
+}
+
+.description {
+  color: rgba(243, 191, 153, 1);
+  font-weight: 400;
+  line-height: 15px;
+  font-size: 0.9rem;
+  margin-top: 7px;
+}
+
+.location {
+  font-size: 0.7rem;
+  margin-top: 7px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 30px; */
+  margin-top: 10px;
+}
+
+.email-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 7.19rem;
+  height: 2.125rem;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Karla", sans-serif;
+}
+
+.email-btn a {
+  color: rgba(55, 65, 81, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.linkedin-btn a {
+  color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.linkedin-btn {
+  width: 7.19rem;
+  height: 2.125rem;
+  background: #5093e2;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  border: 1px solid #5093e2;
+  cursor: pointer;
+  font-family: "Karla", sans-serif;
+}
+
+.about {
+  margin-bottom: 20px;
+}
+
+.bio {
+  padding-block: 10px;
+}
+
+.bio-header {
+  margin-block: 10px;
+  font-size: 1.2rem;
+}
+
+.bio-text {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.interest {
+  padding-block: 10px;
+}
+
+.interest-header {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.interest-text {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.footer {
+  /* margin-top: 25px; */
+  height: 70px;
+  background-color: #161619;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+  color: #918E9B;
+
+  border-radius: 0 0 10px 10px;
 }
