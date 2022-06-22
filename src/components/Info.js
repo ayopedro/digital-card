@@ -1,5 +1,5 @@
 import React from "react";
-import { FaEnvelope, FaGithub } from "react-icons/fa";
+import { FaFilePdf, FaGithub } from "react-icons/fa";
 
 function Info() {
   return (
@@ -12,7 +12,7 @@ function Info() {
         <div className="btns">
           <button className="email-btn">
             <a href="CV - Ayotunde Pedro.pdf" target="_blank" rel="noreferrer">
-              <FaEnvelope /> Email
+              <FaFilePdf /> Resume
             </a>
           </button>
           <button className="linkedin-btn">
