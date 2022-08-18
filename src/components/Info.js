@@ -11,7 +11,7 @@ function Info() {
         <p className="location">Lagos, Nigeria</p>
         <div className="btns">
           <button className="email-btn">
-            <a href="Ayotunde Pedro - CV.pdf" download>
+            <a href="ayotunde pedro - cv.pdf" download>
               <FaFilePdf /> Resume
             </a>
           </button>
